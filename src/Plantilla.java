@@ -11,21 +11,11 @@ public class Plantilla{
 		StringTokenizer st;
 		StringBuilder sb;
 	
-		int i=readInt();
-		int ans=solve(i,1,0);
-		System.out.println(ans);
+		
 		
 		close();
 	}
-	public static int solve(int i,int aux,int sum) {
-		if(i+1==aux)
-			return sum;
-		else {
-			//sum+=i*(i+1)+(i*(i-1))/2;
-			sum+=(aux*2)+(aux-1);
-			return solve(i,aux+1,sum);
-		}
-	}
+	
 	public static int gcd(int a,int b) {
 		if(a==0)
 			return b;

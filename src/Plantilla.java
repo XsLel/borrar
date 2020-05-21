@@ -12,6 +12,8 @@ public class Plantilla{
 		StringBuilder sb;
 	
 		out.write("Creo que ya estoy en github ez");
+		//
+		int x=5;
 		
 		close();
 	}

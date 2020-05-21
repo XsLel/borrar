@@ -14,6 +14,7 @@ public class Plantilla{
 		out.write("Creo que ya estoy en github ez");
 		//
 		int x=5;
+		int y=10;
 		
 		close();
 	}
